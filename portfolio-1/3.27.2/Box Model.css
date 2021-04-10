@@ -1,0 +1,27 @@
+div{
+    border:1px solid black;
+    margin:20px;
+    text-align: center;
+    margin-top:0px;
+}
+
+#BoxMargin
+{
+    border:1px dashed rgb(219, 129, 12);
+}
+
+#BoxBorder
+{
+   background:rgb(221, 133, 17);
+}
+
+#BoxPadding
+{
+    background:rgb(228, 213, 10);
+}
+
+#BoxContent
+{
+    padding-bottom: 150px;
+    border:1px dashed black;
+}

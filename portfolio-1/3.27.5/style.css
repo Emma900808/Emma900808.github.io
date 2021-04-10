@@ -1,0 +1,39 @@
+div {
+    width:350px;
+    height:200px;
+    margin:100px 0px 0px 100px;
+    background-color:rgb(226, 202, 65);
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+  }
+
+img{
+    width:100px;
+    height:100px;
+    margin:-40px 0px 0px 115px;
+}
+
+
+img{
+    -webkit-animation:'rotate1' 1s linear infinite;
+    animation: 'rotate1' 1s linear infinite;
+}
+
+@keyframes example 
+{
+    0%   {background-color: rgb(219, 79, 231);}
+    25%  {background-color: rgb(240, 240, 32);}
+    50%  {background-color: rgb(77, 77, 209);}
+    100% {background-color: rgb(94, 214, 94);}
+  }
+
+@-webkit-keyframes rotate1{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
+
+@keyframes rotate1{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
